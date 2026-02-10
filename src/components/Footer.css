@@ -1,0 +1,39 @@
+footer {
+  background: linear-gradient(135deg, #2d3436 0%, #1e272e 100%);
+  color: #ecf0f1;
+  margin-top: auto;
+  padding: 2rem 0;
+}
+
+.footer-bottom {
+  text-align: center;
+  color: #95a5a6;
+  font-size: 0.9rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+}
+
+.footer-bottom p {
+  margin: 0;
+}
+
+.footer-bottom a {
+  color: #ffd700;
+  transition: color 0.3s ease;
+}
+
+.footer-bottom a:hover {
+  color: #ffffff;
+}
+
+@media (max-width: 768px) {
+  footer {
+    padding: 1rem 0;
+  }
+
+  .footer-bottom {
+    padding: 1rem;
+    font-size: 0.85rem;
+  }
+}
